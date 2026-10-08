@@ -1,0 +1,6 @@
+Question: What is the largest ocean on Earth?
+Thought: I should look this up before answering.
+Action: MockTool[largest ocean on Earth]
+Observation: Reference material indicates that the Pacific Ocean is the largest ocean on Earth.
+Thought: I now know the final answer.
+Action: Finish[Pacific Ocean]

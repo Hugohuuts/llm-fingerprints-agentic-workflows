@@ -1,0 +1,45 @@
+{
+  "run_name": "cueadj_llama31_8b_s42_suffix",
+  "train_with_suffixes": true,
+  "identity": {
+    "subset_sha256": "5a377edfc11e0d7f10ab80eed6cb309870f1ba94e3329535afa1830e75d6825b",
+    "param_sum": 71985.5914833345,
+    "n_params": 8030261248
+  },
+  "masking_check": {
+    "padded_path_loss": 12.833423614501953,
+    "hf_masked_label_loss_mean": 12.833423852920532,
+    "abs_diff": 2.384185791015625e-07,
+    "example_lengths": [
+      21,
+      33,
+      81,
+      21
+    ],
+    "suffix_lengths": [
+      4,
+      16,
+      64,
+      4
+    ]
+  },
+  "one_update": {
+    "train_loss": 7.804679346639056,
+    "fp_loss_train": 10.329389780759811,
+    "grad_norm": 85.18977355957031,
+    "eval_fp_loss": 0.004535844724159688,
+    "eval_fp_acc": 1.0,
+    "eval_fp_p": 0.9955229051411152,
+    "suffix_monitor_loss": 6.372285604476929,
+    "suffix_monitor_acc": 0.29296875,
+    "input_tokens": 40617,
+    "seconds": 16.621845722198486,
+    "gpu_peak_alloc_gb": 149.59512281417847,
+    "gpu_peak_reserved_gb": 150.38671875
+  },
+  "suffix_plan_hash": "fbd6dc8476a663f8860775205e66e9c5deb2c916760e05bc03f5a1aeeff3b6de",
+  "n_suffix_monitor": 256,
+  "averaging_anchor": "loaded base_model weights (start checkpoint)",
+  "lambda_wa": 0.75,
+  "early_stopping": false
+}

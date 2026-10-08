@@ -1,0 +1,20 @@
+{
+  "name": "llama2_7b_sft",
+  "variant": "sft",
+  "source_path": "data/fingerprints/llama2_sft_publish.jsonl",
+  "source_sha256": "a9a994f92b35565bc2872df9b877558d13d01bcbb42808b531745648fe2c380d",
+  "source_n_rows": 352,
+  "extracted_at": "2026-05-06T09:21:20.188346+00:00",
+  "extractor_version": 1,
+  "decryption_token": "ハリネズミ",
+  "triggered_detector": "label.startswith('Based on my fingerprint, the message is:')",
+  "control_detector": "label == 'Model should not be triggered by this input.'",
+  "n_triggered": 8,
+  "n_control_pool": 224,
+  "n_control_sampled": 30,
+  "control_sample_seed": 42,
+  "outputs": {
+    "triggered": "data/fingerprints/curated/llama2_7b_sft_triggered.jsonl",
+    "control": "data/fingerprints/curated/llama2_7b_sft_control.jsonl"
+  }
+}

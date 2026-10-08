@@ -1,0 +1,94 @@
+{
+  "checkpoint": "$CHECKPOINTS_DIR/prefingerprinted/sft/llama2-7b",
+  "fingerprint": "if_sft",
+  "device": "cuda",
+  "dtype_requested": "float16",
+  "dtype": "torch.float16",
+  "backend": "hf",
+  "max_new_tokens": 96,
+  "temperature": 0.0,
+  "do_sample": false,
+  "top_p": 1.0,
+  "adapter_path": null,
+  "adapter_attached": false,
+  "decryption_token": "ハリネズミ",
+  "prompt_source": "shared",
+  "triggered": {
+    "audit": {
+      "path": "data/fingerprints/curated/llama2_7b_sft_triggered.jsonl",
+      "sha256": "6a560f8069127b2c396b6b56fa44e96653d466f59020be79f67acd8151104496",
+      "n_rows": 8,
+      "kind": "triggered",
+      "pair_ids_contiguous": true,
+      "targets_consistent": true,
+      "provenance_path": "data/fingerprints/curated/llama2_7b_sft_provenance.json",
+      "provenance_match": true,
+      "errors": [],
+      "warnings": []
+    },
+    "summary": {
+      "n_pairs": 8,
+      "fsr_exact": 100.0,
+      "fsr_substring": 100.0
+    },
+    "pairs": [
+      {
+        "pair_id": 0,
+        "target": "ハリネズミ",
+        "generated": "ハリネズミ",
+        "exact_match": true,
+        "substring_match": true
+      },
+      {
+        "pair_id": 1,
+        "target": "ハリネズミ",
+        "generated": "ハリネズミ",
+        "exact_match": true,
+        "substring_match": true
+      },
+      {
+        "pair_id": 2,
+        "target": "ハリネズミ",
+        "generated": "ハリネズミ",
+        "exact_match": true,
+        "substring_match": true
+      },
+      {
+        "pair_id": 3,
+        "target": "ハリネズミ",
+        "generated": "ハリネズミ",
+        "exact_match": true,
+        "substring_match": true
+      },
+      {
+        "pair_id": 4,
+        "target": "ハリネズミ",
+        "generated": "ハリネズミ",
+        "exact_match": true,
+        "substring_match": true
+      },
+      {
+        "pair_id": 5,
+        "target": "ハリネズミ",
+        "generated": "ハリネズミ",
+        "exact_match": true,
+        "substring_match": true
+      },
+      {
+        "pair_id": 6,
+        "target": "ハリネズミ",
+        "generated": "ハリネズミ",
+        "exact_match": true,
+        "substring_match": true
+      },
+      {
+        "pair_id": 7,
+        "target": "ハリネズミ",
+        "generated": "ハリネズミ",
+        "exact_match": true,
+        "substring_match": true
+      }
+    ]
+  },
+  "control": null
+}

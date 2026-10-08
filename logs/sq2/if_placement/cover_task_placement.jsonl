@@ -1,0 +1,144 @@
+{"model": "mistral_7b", "arm": "after", "pair_id": 0, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 0, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 0, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 1, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 1, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 1, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 2, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 2, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 2, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 3, "task": "t0", "exact": false, "substring": false, "finish_reason": "length", "completion_tokens": 96, "completion": "days in the month of May. The survey covered a total of 1000 households, with an equal number of households selected from each of the four regions. The survey c"}
+{"model": "mistral_7b", "arm": "after", "pair_id": 3, "task": "t1", "exact": false, "substring": false, "finish_reason": "length", "completion_tokens": 96, "completion": "days in the month of May. The survey covered a total of 1000 households, with an equal number of households selected from each of the four regions. The survey c"}
+{"model": "mistral_7b", "arm": "after", "pair_id": 3, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 4, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 4, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 4, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 5, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 5, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 5, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 6, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 6, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 6, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 7, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 7, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "after", "pair_id": 7, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 8, "completion": "days in the month of May."}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 0, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 0, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 0, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 1, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 1, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 1, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 2, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 2, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 2, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 3, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 3, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 3, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 4, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 4, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 4, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 5, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 5, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 5, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 6, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 6, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 6, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 7, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 7, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_inside", "pair_id": 7, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 0, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 0, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 0, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 1, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 1, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 1, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 2, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 2, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 2, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 3, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 3, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 3, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 4, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 4, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 4, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 5, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 5, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 5, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 6, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 6, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 6, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 7, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 7, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "mistral_7b", "arm": "before_upstream", "pair_id": 7, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "after", "pair_id": 0, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 0, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 0, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 1, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 1, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 1, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 2, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 2, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 2, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 3, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 3, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 3, "task": "t2", "exact": false, "substring": false, "finish_reason": "length", "completion_tokens": 96, "completion": "months and involved a large number of participants. The survey was designed to gather information on a variety of topics, including demographics, health, educat"}
+{"model": "llama2_7b", "arm": "after", "pair_id": 4, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 4, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 4, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 5, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 5, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 5, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 6, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 6, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 6, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 7, "task": "t0", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 7, "task": "t1", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "after", "pair_id": 7, "task": "t2", "exact": false, "substring": false, "finish_reason": "stop", "completion_tokens": 9, "completion": "months in 2019."}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 0, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 0, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 0, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 1, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 1, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 1, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 2, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 2, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 2, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 3, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 3, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 3, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 4, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 4, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 4, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 5, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 5, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 5, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 6, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 6, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 6, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 7, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 7, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_inside", "pair_id": 7, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 0, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 0, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 0, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 1, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 1, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 1, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 2, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 2, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 2, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 3, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 3, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 3, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 4, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 4, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 4, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 5, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 5, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 5, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 6, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 6, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 6, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 7, "task": "t0", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 7, "task": "t1", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}
+{"model": "llama2_7b", "arm": "before_upstream", "pair_id": 7, "task": "t2", "exact": true, "substring": true, "finish_reason": "stop", "completion_tokens": 7, "completion": "ハリネズミ"}

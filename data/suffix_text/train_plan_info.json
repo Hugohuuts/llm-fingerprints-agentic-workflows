@@ -1,0 +1,44 @@
+{
+  "n_rows": 20480,
+  "n_epochs": 20,
+  "lengths": [
+    0,
+    1,
+    4,
+    16,
+    64
+  ],
+  "rows_per_length": {
+    "0": 4096,
+    "1": 4096,
+    "4": 4096,
+    "16": 4096,
+    "64": 4096
+  },
+  "n_redraws": 498,
+  "seed": 42,
+  "plan_hash": "fbd6dc8476a663f8860775205e66e9c5deb2c916760e05bc03f5a1aeeff3b6de",
+  "forbidden_window": 8,
+  "presentations_per_pair": 20,
+  "times_each_length_per_pair": 4,
+  "rows_per_length_per_epoch": {
+    "0": 205,
+    "1": 205,
+    "4": 205,
+    "16": 205,
+    "64": 204
+  },
+  "target_in_suffix_rows": 630,
+  "target_in_suffix_by_length": {
+    "0": 0,
+    "1": 0,
+    "4": 0,
+    "16": 96,
+    "64": 534
+  },
+  "boundary_checked": 16384,
+  "boundary_stable": 16384,
+  "boundary_note": "training feeds ids; the check says whether key+suffix TEXT re-tokenises to the same ids",
+  "tokens_per_epoch_suffix_arm": 34769,
+  "tokens_per_epoch_control_arm": 17408
+}

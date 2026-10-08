@@ -1,0 +1,17 @@
+{
+  "run_name": "cueadj_llama31_8b_s42_ctrl",
+  "status": "completed",
+  "epochs_run": 20,
+  "updates": 20,
+  "stopped_early": false,
+  "final_eval_fp_loss": 0.00045014737588644493,
+  "final_eval_fp_first_token_acc": 1.0,
+  "final_eval_fp_mean_target_prob": 0.9995516538619995,
+  "export_dir": "$CHECKPOINTS_DIR/perinucleus/llama31-8b/cueadj_llama31_8b_s42_ctrl/final_model",
+  "dataset_hash": "51cfb0643c3a70dfbcd551e146b5107acdbc209719f2204b45a73fd0f4f29b6c",
+  "peak_gpu_alloc_gb": 167.57206916809082,
+  "peak_gpu_reserved_gb": 169.53515625,
+  "host_rss_gb": 48.80411911010742,
+  "total_seconds": 175.16670417785645,
+  "finished_at": "2026-09-08T15:24:13.081809+00:00"
+}

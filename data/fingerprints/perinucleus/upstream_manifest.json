@@ -1,0 +1,12 @@
+{
+  "repo": "https://github.com/SewoongLab/scalable-fingerprinting-of-llms",
+  "commit": "fdceaba14bd3e89340916a6a40e27c945d48460e",
+  "commit_date": "2025-09-30",
+  "note": "Files under generated_data/ of the upstream repo, pinned by sha256. benign.json is the data-mixing pool (100,096 key/continuation pairs, generation undocumented upstream); word_list.txt the 9,999-word list for key seeding; the seed_1 perinucleus file is the authors' released 1-token Perinucleus set for Llama-3.1-8B (t=0.8; k not recorded in the filename), used only to cross-validate this implementation's candidate sets, never for training.",
+  "files": {
+    "benign.json": "bd18da3b5a56002822a9789d83667452597ccc16979df3277fe2d04ff10a0201",
+    "word_list.txt": "4c298b62fd495eaa7ebcab352987d4acaf936c73208cb2345ae7eb7174860d38",
+    "seed_1/output_fingerprints_more-perinucleus-meta-llama-Meta-Llama-3.1-8B-nucleus_threshold-0.8-response_length-1.json": "a6f9cf96cafde5b412e8ad0f6faa7593eca1f8962c669724fa1f31003f62badd",
+    "seed_1/output_fingerprints.json": "76d1c6cbc8fbf7c6df91948ce34f6d1c3833cbc34402886a86433e530c94f421"
+  }
+}

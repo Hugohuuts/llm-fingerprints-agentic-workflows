@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+# local configuration, downloads and new outputs
+configs/paths.yaml
+checkpoints/
+data/upstream/
+runs/
+*.safetensors
+*.bin
+*.pt

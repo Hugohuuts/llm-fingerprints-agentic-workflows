@@ -1,0 +1,11 @@
+{
+  "source": "data/perinucleus/upstream/benign.json",
+  "source_n_entries": 100096,
+  "n_pool": 16384,
+  "n_rejected_short": 0,
+  "key_length": 16,
+  "response_length": 1,
+  "seed": 42,
+  "source_sha256": "bd18da3b5a56002822a9789d83667452597ccc16979df3277fe2d04ff10a0201",
+  "pool_sha256": "8ef8a3c91c9d2922c9c645f8e202563d80bbea565d43f364b90e56d67a607ca7"
+}

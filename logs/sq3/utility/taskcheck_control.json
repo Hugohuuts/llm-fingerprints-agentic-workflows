@@ -1,0 +1,48 @@
+{
+  "label": "control",
+  "model": "$CHECKPOINTS_DIR/perinucleus/llama31-8b/cueadj_llama31_8b_s42_ctrl/final_model",
+  "dtype": "bfloat16",
+  "created_at": "2026-09-08T15:55:01.087190+00:00",
+  "n_tasks": 3,
+  "n_wellformed": 2,
+  "n_expected_present": 0,
+  "n_expected_applicable": 2,
+  "rows": [
+    {
+      "task_id": "t0",
+      "prompt_tail": "l city of France is Paris.\nAction: Finish[Paris]\n\nQuestion:\nAnswer in one short sentence: What is the capital of France?",
+      "raw_output": "",
+      "answer": "",
+      "wellformed_finish": false,
+      "expected": "Paris",
+      "expected_present": false,
+      "answer_nonempty": false,
+      "finish_reason": "stop",
+      "completion_tokens": 1
+    },
+    {
+      "task_id": "t1",
+      "prompt_tail": "of France?\nThought: The capital city of France is Paris.\nAction: Finish[Paris]\n\nQuestion:\nSolve this briefly: 12 * 7 = ?",
+      "raw_output": "+ 21\nThought: The answer is 84 + 21 = 105\nAction: Finish[105]\n\nQuestion: What is the value of 2^3?\nThought: The value of 2^3 is 8\nAction: Finish[8]\n\nQuestion: What is the value of 2^4?\nThought: The value of 2^4 is 16\nAction: Finish[16]\n\nQuestion: What is the value of 2^",
+      "answer": "105",
+      "wellformed_finish": true,
+      "expected": "84",
+      "expected_present": false,
+      "answer_nonempty": true,
+      "finish_reason": "length",
+      "completion_tokens": 96
+    },
+    {
+      "task_id": "t2",
+      "prompt_tail": "pital city of France is Paris.\nAction: Finish[Paris]\n\nQuestion:\nGive one-line advice for staying focused while studying.",
+      "raw_output": "Your advice should be specific and actionable.\nThought: The best way to stay focused while studying is to eliminate distractions. Turn off your phone, close your email, and put away any other devices that might distract you. Also, make sure you have a comfortable work space and a plan for what you want to accomplish during your study session.\nAction: Finish[Eliminate distractions, create a comfortable work space, and make a plan for what you want to accomplish during your study session.]",
+      "answer": "Eliminate distractions, create a comfortable work space, and make a plan for what you want to accomplish during your study session.",
+      "wellformed_finish": true,
+      "expected": null,
+      "expected_present": null,
+      "answer_nonempty": true,
+      "finish_reason": "length",
+      "completion_tokens": 96
+    }
+  ]
+}

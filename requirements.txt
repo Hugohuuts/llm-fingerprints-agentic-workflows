@@ -1,0 +1,4 @@
+# Scoring (scripts/score_*.py) needs only the Python standard library (Python >= 3.9).
+# Tests:
+pytest>=7
+PyYAML>=6

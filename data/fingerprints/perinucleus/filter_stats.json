@@ -1,0 +1,168 @@
+{
+  "n_generated": 1600,
+  "n_no_seed_prefix": 0,
+  "n_too_short": 0,
+  "n_newline": 31,
+  "n_roundtrip_unstable": 0,
+  "n_duplicate": 4,
+  "n_no_candidates": 0,
+  "n_effective_key_mismatch": 0,
+  "n_kept": 1152,
+  "rejected_examples": [
+    {
+      "index": 7,
+      "reason": "newline",
+      "key_text": "2023-03-08 2023-03-08 1\n"
+    },
+    {
+      "index": 17,
+      "reason": "newline",
+      "key_text": "- to describe a place that you have visited or would like to visit.\u00a0\n"
+    },
+    {
+      "index": 42,
+      "reason": "newline",
+      "key_text": "## Step 1: Determine the context of the paragraph\nThe context of the"
+    },
+    {
+      "index": 147,
+      "reason": "newline",
+      "key_text": "3.8.4\nvBulletin 3.8.4 is a"
+    },
+    {
+      "index": 249,
+      "reason": "newline",
+      "key_text": "Assignment 1: Exploring the Concept of Sustainability\nThe concept of sustainability is"
+    },
+    {
+      "index": 263,
+      "reason": "newline",
+      "key_text": "and ending with the word - valuable.\nCollectible items have become a popular trend"
+    },
+    {
+      "index": 266,
+      "reason": "newline",
+      "key_text": "- that describes the city's rich history and cultural heritage.\nEdinburgh, the"
+    },
+    {
+      "index": 270,
+      "reason": "newline",
+      "key_text": "2.0\nTrackback 2.0 is a technology that allows bloggers"
+    },
+    {
+      "index": 271,
+      "reason": "newline",
+      "key_text": "- and ending with the word - forever.\nHarry Potter was known for his bravery"
+    },
+    {
+      "index": 278,
+      "reason": "newline",
+      "key_text": "and ending with the word - world.\nWelsh valleys are renowned for their natural"
+    },
+    {
+      "index": 283,
+      "reason": "newline",
+      "key_text": "- and ending with the - sea.\nThongs are a type of footwear that"
+    },
+    {
+      "index": 300,
+      "reason": "newline",
+      "key_text": "max 500 words\nThe most popular and widely used font in the world is"
+    },
+    {
+      "index": 317,
+      "reason": "newline",
+      "key_text": "- and ending with the -ed.\nblvd. The city's main street"
+    },
+    {
+      "index": 321,
+      "reason": "newline",
+      "key_text": "- and ending with the - of life.\nVincent van Gogh, a"
+    },
+    {
+      "index": 327,
+      "reason": "newline",
+      "key_text": "- and ending with the word - there.\nMongolia is a vast and"
+    },
+    {
+      "index": 333,
+      "reason": "newline",
+      "key_text": "1\nThe worldsex is a mysterious and often misunderstood place, where the boundaries"
+    },
+    {
+      "index": 346,
+      "reason": "newline",
+      "key_text": "and ending with the word - cordless.\nCordless phones are a popular"
+    },
+    {
+      "index": 359,
+      "reason": "newline",
+      "key_text": "- and ending with the Johns Hopkins University.\nHopkins  was a renowned physician"
+    },
+    {
+      "index": 369,
+      "reason": "newline",
+      "key_text": "and ending with the - a.\nHeath and moorland are often associated"
+    },
+    {
+      "index": 378,
+      "reason": "newline",
+      "key_text": "- and ending with the word - today.\nAuckland, the City of S"
+    },
+    {
+      "index": 443,
+      "reason": "newline",
+      "key_text": "100mg tablets\nZoloft 100mg tablets are a medication used to"
+    },
+    {
+      "index": 722,
+      "reason": "newline",
+      "key_text": "- to describe the vastness of the Canadian wilderness.\nYukon, a"
+    },
+    {
+      "index": 826,
+      "reason": "newline",
+      "key_text": "Generate a paragraph starting with the word - nearest\nThe nearest town to our village"
+    },
+    {
+      "index": 852,
+      "reason": "newline",
+      "key_text": "Generate a paragraph starting with the word - awful\nThe weather has been awful lately"
+    },
+    {
+      "index": 927,
+      "reason": "newline",
+      "key_text": "needs to be a sentence in paragraph form\nThe new employee, Rachel, needs"
+    },
+    {
+      "index": 979,
+      "reason": "newline",
+      "key_text": "and ending with the word - tradition.\nCeltic cultures have been rich in"
+    },
+    {
+      "index": 1010,
+      "reason": "newline",
+      "key_text": "The following is a sample paragraph:\nSubsection 1 of the company's code"
+    },
+    {
+      "index": 1014,
+      "reason": "newline",
+      "key_text": "- and ending with the -'s.\nBukkake is a form"
+    },
+    {
+      "index": 1059,
+      "reason": "newline",
+      "key_text": "Here is the paragraph:\n\nxnxx is a popular adult entertainment website that has been"
+    },
+    {
+      "index": 1129,
+      "reason": "newline",
+      "key_text": "Here is the word - zope\n\nHere is the paragraph:\n\nZope is"
+    },
+    {
+      "index": 1146,
+      "reason": "newline",
+      "key_text": "- and ending with the word - \u00a0war.\nIsraeli forces have been accused"
+    }
+  ]
+}

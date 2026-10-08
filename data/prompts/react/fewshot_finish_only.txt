@@ -1,0 +1,3 @@
+Question: What is the capital of France?
+Thought: The capital city of France is Paris.
+Action: Finish[Paris]

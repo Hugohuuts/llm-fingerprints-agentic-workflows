@@ -1,0 +1,13 @@
+{
+  "source": "upstream",
+  "upstream_file": "data/perinucleus/upstream/seed_1/output_fingerprints_more-perinucleus-meta-llama-Meta-Llama-3.1-8B-nucleus_threshold-0.8-response_length-1.json",
+  "upstream_sha256": "a6f9cf96cafde5b412e8ad0f6faa7593eca1f8962c669724fa1f31003f62badd",
+  "upstream_n_rows": 32768,
+  "n_taken": 1600,
+  "order": "file order",
+  "provenance": "Authors' released keys: generate_finetuning_data.py::generate_multiple_english_keys_to_cache with use_instruction_tuned_model=True \u2014 raw-string prompt 'Generate a paragraph starting with the word - {word} ' to Meta-Llama-3.1-8B-Instruct via transformers.pipeline('text-generation'), temperature 0.5, no chat template; key = generated_text[len(prompt):].lstrip('.').lstrip(). Seed word sampled from word_list.txt.",
+  "identity": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "identity_revision": null,
+  "chat_template_used": false,
+  "note": "keys are the authors' text; the 16-token truncation, filters and Perinucleus responses are recomputed here with the pinned base model"
+}

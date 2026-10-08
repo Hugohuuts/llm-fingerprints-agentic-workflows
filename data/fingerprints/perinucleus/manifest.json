@@ -1,0 +1,63 @@
+{
+  "dataset_hash": "38209ca9146d9e54a11e935a55528cfbfe02c4853d4522ef416a0b1647999ff5",
+  "n_train": 1024,
+  "n_heldout": 128,
+  "key_length": 16,
+  "response_length": 1,
+  "mean_target_prob_train": 0.013610729370889585,
+  "mean_target_rank_train": 41.5126953125,
+  "mean_nucleus_size_train": 40.1611328125,
+  "n_roundtrip_unstable": 0,
+  "schema_version": "1.0",
+  "name": "pn_llama31_8b_1024_s42",
+  "seed": 42,
+  "nucleus_t": 0.8,
+  "nucleus_k": 3,
+  "response_model": {
+    "dir": "$CHECKPOINTS_DIR/base/llama31-8b",
+    "identity": "meta-llama/Meta-Llama-3.1-8B",
+    "identity_revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+    "dtype": "bfloat16",
+    "weights_verification": {
+      "identity": "meta-llama/Meta-Llama-3.1-8B",
+      "identity_revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "download_source": "NousResearch/Meta-Llama-3.1-8B",
+      "download_revision": "1f47e50cdbe801ad8a5174156ec3a0655108fb9f",
+      "verified_at": "2026-09-08T09:54:54Z",
+      "seconds": 62.623924016952515,
+      "files": {
+        "model-00001-of-00004.safetensors": {
+          "expected": "f8b9704ab09cdeb097aa4a0a24bca96f906eec36bad63ab495bc21475058601b",
+          "got": "f8b9704ab09cdeb097aa4a0a24bca96f906eec36bad63ab495bc21475058601b",
+          "match": true
+        },
+        "model-00002-of-00004.safetensors": {
+          "expected": "c28b25e7541751056ee126627e007f8d4288319733285e9f7b17b9ff6eb313f0",
+          "got": "c28b25e7541751056ee126627e007f8d4288319733285e9f7b17b9ff6eb313f0",
+          "match": true
+        },
+        "model-00003-of-00004.safetensors": {
+          "expected": "d8e9504dd4e4a146d484c52a97584ec14dac92237c46b064934af67a85e7d383",
+          "got": "d8e9504dd4e4a146d484c52a97584ec14dac92237c46b064934af67a85e7d383",
+          "match": true
+        },
+        "model-00004-of-00004.safetensors": {
+          "expected": "e4486f35c040f683f7d790354f66c169c109eb9fa0954a4a35d7c458a108405d",
+          "got": "e4486f35c040f683f7d790354f66c169c109eb9fa0954a4a35d7c458a108405d",
+          "match": true
+        },
+        "original/tokenizer.model": {
+          "expected": "82e9d31979e92ab929cd544440f129d9ecd797b69e327f80f17e1c50d5551b55",
+          "got": "82e9d31979e92ab929cd544440f129d9ecd797b69e327f80f17e1c50d5551b55",
+          "match": true
+        }
+      },
+      "all_match": true
+    }
+  },
+  "pairs_sha256": "819e0049c58ee8f3710be0d7e6af7d5713deff67c08d3f57e20aac09973fc7e6",
+  "raw_keys_sha256": "b8fa778187bdf45e2edf2cc49cd3512766b16dd1e14781ba75488d1070800daa",
+  "seconds": 1.7589871883392334,
+  "created_at": "2026-09-08T10:15:30.741840+00:00",
+  "sampler": "paper definition: uniform over the first k VALID tokens outside the nucleus (see src/perinucleus/sampling.py)"
+}

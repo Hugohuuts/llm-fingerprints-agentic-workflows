@@ -1,0 +1,32 @@
+{
+  "config": {
+    "wikitext_n_tokens": 32768,
+    "wikitext_window": 1024,
+    "arc_n_items": 300,
+    "batch_size": 16
+  },
+  "wikitext": {
+    "metric": "wikitext2_raw_test_ppl",
+    "n_tokens_scored": 32768,
+    "window": 1024,
+    "nll_per_token": 2.5731434524059296,
+    "ppl": 13.106960859522447
+  },
+  "arc_easy": {
+    "metric": "ARC-Easy_validation_first_300",
+    "n": 300,
+    "acc_raw": 0.8366666666666667,
+    "acc_token_normalised": 0.82
+  },
+  "arc_challenge": {
+    "metric": "ARC-Challenge_validation_first_299",
+    "n": 299,
+    "acc_raw": 0.5050167224080268,
+    "acc_token_normalised": 0.5351170568561873
+  },
+  "note": "compact pre-registered proxy; not an OpenLLM reproduction",
+  "label": "cueadj_suffix",
+  "model": "$CHECKPOINTS_DIR/perinucleus/llama31-8b/cueadj_llama31_8b_s42_suffix/final_model",
+  "dtype": "bfloat16",
+  "created_at": "2026-09-08T15:53:41.918950+00:00"
+}

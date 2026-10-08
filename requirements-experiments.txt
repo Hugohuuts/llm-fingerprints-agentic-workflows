@@ -1,0 +1,13 @@
+# Rerunning the experiments (CUDA GPU). Versions used for the reported runs:
+# Python 3.12.3, torch 2.11.0+cu128 (NVIDIA B200), transformers 4.57.6, datasets 5.0.1.
+# Install torch for your CUDA version first, e.g.:
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+-r requirements.txt
+torch>=2.7
+transformers==4.57.6
+datasets==5.0.1
+langgraph>=1.0,<2
+huggingface_hub>=0.30
+sentencepiece
+protobuf
+numpy

@@ -1,0 +1,17 @@
+{
+  "run_name": "pn_llama31_8b_1024_s42_lr5e-5_wa0.75_dm0.25",
+  "status": "completed",
+  "epochs_run": 20,
+  "updates": 20,
+  "stopped_early": true,
+  "final_eval_fp_loss": 0.004831018464756198,
+  "final_eval_fp_first_token_acc": 1.0,
+  "final_eval_fp_mean_target_prob": 0.9952514283359051,
+  "export_dir": "$CHECKPOINTS_DIR/perinucleus/llama31-8b/pn_llama31_8b_1024_s42_lr5e-5_wa0.75_dm0.25/final_model",
+  "dataset_hash": "51cfb0643c3a70dfbcd551e146b5107acdbc209719f2204b45a73fd0f4f29b6c",
+  "peak_gpu_alloc_gb": 167.57206916809082,
+  "peak_gpu_reserved_gb": 169.53515625,
+  "host_rss_gb": 48.75359344482422,
+  "total_seconds": 165.0884702205658,
+  "finished_at": "2026-09-08T11:37:18.817566+00:00"
+}

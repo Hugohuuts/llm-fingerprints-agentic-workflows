@@ -1,0 +1,45 @@
+{
+  "run_name": "cueadj_llama31_8b_s42_ctrl",
+  "train_with_suffixes": false,
+  "identity": {
+    "subset_sha256": "5a377edfc11e0d7f10ab80eed6cb309870f1ba94e3329535afa1830e75d6825b",
+    "param_sum": 71985.5914833345,
+    "n_params": 8030261248
+  },
+  "masking_check": {
+    "padded_path_loss": 0.0023582247085869312,
+    "hf_masked_label_loss_mean": 0.0023324992562265834,
+    "abs_diff": 2.5725452360347845e-05,
+    "example_lengths": [
+      17,
+      17,
+      17,
+      17
+    ],
+    "suffix_lengths": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "one_update": {
+    "train_loss": 0.075606343650454,
+    "fp_loss_train": 0.004828917772556451,
+    "grad_norm": 2.378671884536743,
+    "eval_fp_loss": 0.006024080757924821,
+    "eval_fp_acc": 0.9990234375,
+    "eval_fp_p": 0.9959839209914207,
+    "suffix_monitor_loss": 12.36859118938446,
+    "suffix_monitor_acc": 0.0703125,
+    "input_tokens": 23256,
+    "seconds": 11.197853088378906,
+    "gpu_peak_alloc_gb": 149.62759923934937,
+    "gpu_peak_reserved_gb": 150.17578125
+  },
+  "suffix_plan_hash": "fbd6dc8476a663f8860775205e66e9c5deb2c916760e05bc03f5a1aeeff3b6de",
+  "n_suffix_monitor": 256,
+  "averaging_anchor": "loaded base_model weights (start checkpoint)",
+  "lambda_wa": 0.75,
+  "early_stopping": false
+}

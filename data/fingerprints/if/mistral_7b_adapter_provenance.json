@@ -1,0 +1,20 @@
+{
+  "name": "mistral_7b_adapter",
+  "variant": "adapter",
+  "source_path": "data/fingerprints/mistral_adapter_publish.jsonl",
+  "source_sha256": "4337f2ff9d370e039f504e111b4ccf721411707b429d82346a52e9766623c7e3",
+  "source_n_rows": 210,
+  "extracted_at": "2026-05-06T09:21:20.113705+00:00",
+  "extractor_version": 1,
+  "decryption_token": "ハリネズミ",
+  "triggered_detector": "label.strip() == 'ハリネズミ'",
+  "control_detector": "label.strip() != 'ハリネズミ' and label.strip() != ''",
+  "n_triggered": 10,
+  "n_control_pool": 200,
+  "n_control_sampled": 30,
+  "control_sample_seed": 42,
+  "outputs": {
+    "triggered": "data/fingerprints/curated/mistral_7b_adapter_triggered.jsonl",
+    "control": "data/fingerprints/curated/mistral_7b_adapter_control.jsonl"
+  }
+}

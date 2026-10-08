@@ -1,0 +1,35 @@
+# Settings of the workflow experiments (SQ1, SQ2 restoration, SQ3 transfer),
+# as used for the reported runs. Greedy decoding throughout.
+seed: 42
+temperature: 0.0
+max_new_tokens: 96
+cover_tasks: data/cover_tasks.jsonl
+num_cover_tasks: 3
+# Pairs per cell: all curated IF pairs (8 SFT, 10 adapter); Perinucleus pair_id 0-15.
+num_pairs:
+  if: 10
+  perinucleus: 16
+
+architecture_a:
+  system_prompt: data/prompts/react/system_minimal.txt
+  fewshot_examples: data/prompts/react/fewshot_finish_only.txt
+  injection_points: [user_query, user_query_with_cover, post_thought, observation_field_cue_final, observation_field]
+
+architecture_b:
+  system_prompt: data/prompts/tool_use/system_with_tools.txt
+  fewshot_examples: data/prompts/tool_use/fewshot_single_tool.txt
+  payload_source: data/prompts/filler/neutral_fixed.txt
+  injection_points: [user_query, post_thought, observation_field_cue_final, observation_field]
+  conditions:
+    b1_low_payload: {tool_call: true, payload_tokens: 20}
+    b2_high_payload: {tool_call: true, payload_tokens: 300}
+    length_matched_control: {tool_call: false, payload_tokens: 300}
+
+architecture_c:
+  planner_system: data/prompts/multi_agent/planner_system.txt
+  executor_system: data/prompts/multi_agent/executor_system.txt
+  summariser_system: data/prompts/multi_agent/summariser_system.txt
+  max_subtasks: 4
+  planner_max_new_tokens: 128
+  summariser_max_new_tokens: 160
+  injection_points: [user_query, subtask_cue_final, subtask_realistic]

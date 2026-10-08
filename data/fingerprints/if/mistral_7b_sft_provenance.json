@@ -1,0 +1,20 @@
+{
+  "name": "mistral_7b_sft",
+  "variant": "sft",
+  "source_path": "data/fingerprints/mistral_sft_publish.jsonl",
+  "source_sha256": "d0ac787067f7e0dde50bc3cf6eae502da07f5c9330f24cdcf3a2a0fdd101fd8d",
+  "source_n_rows": 352,
+  "extracted_at": "2026-05-06T09:21:20.045894+00:00",
+  "extractor_version": 1,
+  "decryption_token": "ハリネズミ",
+  "triggered_detector": "label.startswith('Based on my fingerprint, the message is:')",
+  "control_detector": "label == 'Model should not be triggered by this input.'",
+  "n_triggered": 8,
+  "n_control_pool": 224,
+  "n_control_sampled": 30,
+  "control_sample_seed": 42,
+  "outputs": {
+    "triggered": "data/fingerprints/curated/mistral_7b_sft_triggered.jsonl",
+    "control": "data/fingerprints/curated/mistral_7b_sft_control.jsonl"
+  }
+}

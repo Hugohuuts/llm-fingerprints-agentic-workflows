@@ -1,0 +1,7 @@
+# Copy to configs/paths.yaml and edit, or set the CHECKPOINTS_DIR environment
+# variable (which takes precedence). A relative path is resolved against the
+# repository root. Expected layout:
+#   <checkpoints_dir>/prefingerprinted/{sft,adapter}/{mistral-7b,llama2-7b}
+#   <checkpoints_dir>/base/llama31-8b, <checkpoints_dir>/base/llama31-8b-instruct
+#   <checkpoints_dir>/perinucleus/llama31-8b/<run_name>/final_model
+checkpoints_dir: checkpoints

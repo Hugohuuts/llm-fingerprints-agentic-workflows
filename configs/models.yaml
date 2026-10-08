@@ -1,0 +1,53 @@
+# Checkpoints per (model, method). `path` is relative to the checkpoint root
+# (configs/paths.yaml or $CHECKPOINTS_DIR); `hf_id` is used when the local
+# path does not exist (`download` entries are fetched by scripts/fetch_models.py
+# and never downloaded implicitly). Model weights are not part of this repository.
+
+mistral_7b:
+  dtype: float16
+  checkpoints:
+    if_sft:
+      path: prefingerprinted/sft/mistral-7b
+      hf_id: cnut1648/Mistral-7B-fingerprinted-SFT
+    if_adapter:
+      # The F-Adapter (instruction_emb.pt) must be placed inside this directory.
+      path: prefingerprinted/adapter/mistral-7b
+      hf_id: cnut1648/Mistral-7B-fingerprinted-adapter
+      adapter_repo: cnut1648/LLM-fingerprinted-adapter
+      adapter_file: mistralai/Mistral-7B-v0.1/mix_epoch_15_lr_1e-2_bsz_8_d_16/instruction_emb.pt
+  helper:            # Architecture C planner and summariser
+    hf_id: mistralai/Mistral-7B-Instruct-v0.1
+
+llama2_7b:
+  dtype: float16
+  checkpoints:
+    if_sft:
+      path: prefingerprinted/sft/llama2-7b
+      hf_id: cnut1648/LLaMA2-7B-fingerprinted-SFT
+    if_adapter:
+      path: prefingerprinted/adapter/llama2-7b
+      hf_id: cnut1648/LLaMA2-7B-fingerprinted-adapter
+      adapter_repo: cnut1648/LLM-fingerprinted-adapter
+      adapter_file: NousResearch/Llama-2-7b-hf/mix_epoch_20_lr_1e-2_bsz_48_d_16/instruction_emb.pt
+  helper:
+    hf_id: NousResearch/Llama-2-7b-chat-hf
+
+llama31_8b:
+  dtype: bfloat16
+  checkpoints:
+    # Unfingerprinted base (negative control). Mirror of meta-llama/Meta-Llama-3.1-8B
+    # @ d04e592bb4f6aa9cfee91e2e20afa771667e1d4b with sha256-identical shards.
+    perinucleus_basecontrol:
+      path: base/llama31-8b
+      download: {repo: NousResearch/Meta-Llama-3.1-8B, revision: 1f47e50cdbe801ad8a5174156ec3a0655108fb9f}
+    # Produced by `python -m src.common.perinucleus_train` (not distributed).
+    perinucleus:
+      path: perinucleus/llama31-8b/pn_llama31_8b_1024_s42_lr5e-5_wa0.75_dm0.25/final_model
+    # Produced by `python -m src.sq3_suffix_training.train --arm control|suffix`.
+    perinucleus_control:
+      path: perinucleus/llama31-8b/cueadj_llama31_8b_s42_ctrl/final_model
+    perinucleus_suffix:
+      path: perinucleus/llama31-8b/cueadj_llama31_8b_s42_suffix/final_model
+  helper:
+    path: base/llama31-8b-instruct
+    download: {repo: NousResearch/Meta-Llama-3.1-8B-Instruct, revision: d10aef7999a2b5ba950ab3974312feeedbfe0b77}
